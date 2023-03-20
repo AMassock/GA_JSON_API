@@ -11,23 +11,30 @@ The API was created using:
 
 ## How to start Project
 
-clone repo
+1. Clone repository
+   clone repo
 
-cd into repo
+2. Switch to repository
+   cd into repo
 
-npm install
+3. Install depandencies
+   npm install
 
-cd lib/db
+4. Change into db directory
+   cd lib/db
 
-node gameSeed.js
+5. Seed database
+   node gameSeed.js
 
-cd ..
+6. Change to lib directory
+   cd ..
 
-npx nodemon index.js
+7. Launch server
+   npx nodemon index.js
 
-open browser and run below url
+8. Open browser and run below url
 
-http://localhost:3000/
+   [http://localhost:3000/]
 
 ## Technology Used
 
