@@ -43,6 +43,22 @@ The API was created using:
 
 [http://localhost:3000/](http://localhost:3000/)
 
+## Games Endpoints
+
+| URL         | PATH       | METHOD | DESCRIPTION                         |
+| ----------- | ---------- | ------ | ----------------------------------- |
+| /           | /          | GET    | Will redirect to /games             |
+| /games      | /games     | GET    | List all items of games             |
+| /games      | /games     | POST   | Add a new game to the database      |
+| /games/{id} | /games/:id | GET    | Render game based on the id         |
+| /games/{id} | /games/:id | PUT    | Update a specific game based off ID |
+| /games/{id} | /games/:id | DELETE | Remove a specific game based on ID  |
+
+## API Doc
+
+![API DOC Screenshot](planning/screenshots/swagger.png)  
+![Data Example](planning/screenshots/api.png)
+
 ## Technology Used
 
 - MongoDB
