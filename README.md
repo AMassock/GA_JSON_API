@@ -65,3 +65,7 @@ The API was created using:
 - Mongoose
 - Express.js
 - Node.js
+
+## Future Plans
+
+I would like to incorporate load testing so I can test the performance of the api. Also, adding a front end to show all of the data in a more clean way. There are somme issues with the swagger docs that will need to be resolved as well. Adding swagger to the project was one of my biggest hurdles.
